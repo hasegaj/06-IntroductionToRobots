@@ -40,6 +40,7 @@ def main():
     talker = rb.Speech('hello')
     meep = rb.Song(fun_song)
     rb.Song.play(meep)
+    meep.play()
     talker.speak()
 
 main()
