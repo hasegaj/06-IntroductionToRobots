@@ -38,6 +38,8 @@ def main():
                 (311.13, 250, 100), (466.16, 25, 100), (392, 700)]
 
     talker = rb.Speech('hello')
+    meep = rb.Song(fun_song)
+    rb.Song.play(meep)
     talker.speak()
 
 main()
